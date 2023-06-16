@@ -1,0 +1,4 @@
+ToolSet: w64 9.0 (local)@C:\Users\jakup\Desktop\clion\bin\mingw
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=C:/Users/jakup/Desktop/clion/bin/ninja/win/x64/ninja.exe
