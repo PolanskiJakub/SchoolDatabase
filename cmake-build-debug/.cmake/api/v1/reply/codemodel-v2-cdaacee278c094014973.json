@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/jakup/CLionProjects/school/cmake-build-debug",
-		"source" : "C:/Users/jakup/CLionProjects/school"
+		"build" : "C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug",
+		"source" : "C:/Users/jakup/Documents/GitHub/SchoolDatabase"
 	},
 	"version" : 
 	{

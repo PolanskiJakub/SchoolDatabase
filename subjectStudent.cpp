@@ -3,8 +3,7 @@
 #include <map>
 #include <iostream>
 #include <vector>
-#include <iomanip>
-#include <cmath>
+#include <filesystem>
 
 //
 // Created by jakup on 13.06.2023.
@@ -14,7 +13,6 @@ struct Grade{
     int weight;
     std::string note;
 };
-
 class subjectStudent{
 public:
     std::vector<std::string> subjectName;
@@ -22,20 +20,23 @@ public:
     void readSubjectsName(){
         std::fstream file;
         std::string studentFile,gradeWithWeight;
-        studentFile="C:/Users/jakup/CLionProjects/school/student.txt";
+        studentFile="C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt";
         file.open(studentFile.c_str());
-        while (file >> gradeWithWeight) {
-            if (gradeWithWeight == "Subject"){
-                file >> gradeWithWeight;
-                subjectName.push_back(gradeWithWeight);
+        if(file.is_open()){
+            while (file >> gradeWithWeight) {
+                if (gradeWithWeight == "Subject"){
+                    file >> gradeWithWeight;
+                    subjectName.push_back(gradeWithWeight);
+                }
             }
-        }
+        }else
+            std::cout<<"This student dont have grades"<<std::endl;
         file.close();
     }
     void insertingDateFromFileForOneSubject(std::string subjectN){
         std::fstream file;
         std::string gradeWithWeight,mark,weight,id,note,studentFile,mainSubjectName;
-        studentFile="C:/Users/jakup/CLionProjects/school/student.txt";
+        studentFile="C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt";
         file.open(studentFile.c_str());
         int i=0;
         while (file >> gradeWithWeight){
@@ -97,10 +98,10 @@ public:
         }
     }
     int addGradeToSubject(std::string grade,std::string weight, std::string note,std::string subjectName){
-        std::ifstream studentFile("C:/Users/jakup/CLionProjects/school/student.txt");
+        std::ifstream studentFile("C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt");
         std::vector<std::string> text;
         int numberOfLines=0;
-        int placeToAdd;
+        int placeToAdd=0;
         if(studentFile.is_open()){
             std::string line;
             while (std::getline(studentFile, line)){
@@ -115,6 +116,10 @@ public:
             std::cout<<"Can't open file"<<std::endl;
             return 1;
         }
+        if(placeToAdd == 0){
+            std::cout<<"This subject don't exist"<<std::endl;
+            return 0;
+        }
         auto key = marks.end();
         int iteration = key->first + 1;
         placeToAdd+=iteration;
@@ -122,7 +127,7 @@ public:
         std::string iterationString = std::to_string(iteration);
         const std::string gradeToAdd= iterationString + " " +grade + " " + weight + " " + "note";
         text.insert(text.begin()+placeToAdd,gradeToAdd);
-        std::ofstream studentFileWrite("C:/Users/jakup/CLionProjects/school/student.txt");
+        std::ofstream studentFileWrite("C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt");
         if(studentFileWrite.is_open()){
             for(const std::string& line : text){
                 std::cout<<line<<std::endl;
