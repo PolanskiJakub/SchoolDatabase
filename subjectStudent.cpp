@@ -3,7 +3,8 @@
 #include <map>
 #include <iostream>
 #include <vector>
-#include <filesystem>
+#include <string>
+
 
 //
 // Created by jakup on 13.06.2023.
@@ -17,11 +18,10 @@ class subjectStudent{
 public:
     std::vector<std::string> subjectName;
     std::map<int,Grade> marks;
-    void readSubjectsName(){
+    void readSubjectsName(std::string studentFilePath){
         std::fstream file;
-        std::string studentFile,gradeWithWeight;
-        studentFile="C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt";
-        file.open(studentFile.c_str());
+        std::string gradeWithWeight;
+        file.open(studentFilePath.c_str());
         if(file.is_open()){
             while (file >> gradeWithWeight) {
                 if (gradeWithWeight == "Subject"){
@@ -33,11 +33,11 @@ public:
             std::cout<<"This student dont have grades"<<std::endl;
         file.close();
     }
-    void insertingDateFromFileForOneSubject(std::string subjectN){
+    void insertingDateFromFileForOneSubject(std::string subjectN,std::string studentFilePath){
         std::fstream file;
-        std::string gradeWithWeight,mark,weight,id,note,studentFile,mainSubjectName;
-        studentFile="C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt";
-        file.open(studentFile.c_str());
+        std::string gradeWithWeight,mark,weight,id,note,mainSubjectName;
+        //studentFile="C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt";
+        file.open(studentFilePath.c_str());
         int i=0;
         while (file >> gradeWithWeight){
             if (gradeWithWeight == "Subject"){
@@ -97,8 +97,8 @@ public:
             std::cout<<subjectName[i]<<std::endl;
         }
     }
-    int addGradeToSubject(std::string grade,std::string weight, std::string note,std::string subjectName){
-        std::ifstream studentFile("C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt");
+    int addGradeToSubject(std::string grade,std::string weight, std::string note,std::string subjectName,std::string studentFilePath){
+        std::ifstream studentFile(studentFilePath);
         std::vector<std::string> text;
         int numberOfLines=0;
         int placeToAdd=0;
@@ -114,7 +114,7 @@ public:
             studentFile.close();
         }else{
             std::cout<<"Can't open file"<<std::endl;
-            return 1;
+            return 0;
         }
         if(placeToAdd == 0){
             std::cout<<"This subject don't exist"<<std::endl;
@@ -127,7 +127,7 @@ public:
         std::string iterationString = std::to_string(iteration);
         const std::string gradeToAdd= iterationString + " " +grade + " " + weight + " " + "note";
         text.insert(text.begin()+placeToAdd,gradeToAdd);
-        std::ofstream studentFileWrite("C:/Users/jakup/Documents/GitHub/SchoolDatabase/student.txt");
+        std::ofstream studentFileWrite(studentFilePath);
         if(studentFileWrite.is_open()){
             for(const std::string& line : text){
                 std::cout<<line<<std::endl;

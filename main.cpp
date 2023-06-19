@@ -3,7 +3,7 @@
 
 int main(){
     classYear first(2,"dwanascie","adfs");
-    student second("asd",5,"fasdf","asddas","asd");
+    student second("Prolanski",5,"Sport","asddas","Kamil");
     subjectStudent mark;
 //    mark.readSubjectsName();
 
@@ -16,4 +16,5 @@ int main(){
     second.bestSubject();
     second.bestSubjectDisplay();
     second.addStudentFile();
+    second.displayAllStudentsInClass();
 }

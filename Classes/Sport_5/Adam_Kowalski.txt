@@ -1,0 +1,20 @@
+Subject Geography
+1 2 4 bsd
+2 4 3 asda
+3 5 3 asdas
+4 5 2 asdas
+5 3 2 bsd
+6 2 2 bsd
+7 3 2 bsd
+8 3 2 note
+9 2 2 note
+10 3 2 note
+Subject Math
+1 2 2 bsd
+2 3 2 bsd
+3 3 2 note
+4 3 2 note
+Subject Polish
+1 5 2 bsd
+2 5 4 bsd
+3 4 5 bsd
