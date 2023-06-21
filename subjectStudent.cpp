@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 
 
 //
@@ -97,55 +98,14 @@ public:
             std::cout<<subjectName[i]<<std::endl;
         }
     }
-    int addGradeToSubject(std::string grade,std::string weight, std::string note,std::string subjectName,std::string studentFilePath){
-        std::ifstream studentFile(studentFilePath);
-        std::vector<std::string> text;
-        int numberOfLines=0;
-        int placeToAdd=0;
-        if(studentFile.is_open()){
-            std::string line;
-            while (std::getline(studentFile, line)){
-                text.push_back(line);
-                if (line == "Subject "+subjectName){
-                    placeToAdd=numberOfLines;
-                }
-                ++numberOfLines;
-            }
-            studentFile.close();
-        }else{
-            std::cout<<"Can't open file"<<std::endl;
-            return 0;
-        }
-        if(placeToAdd == 0){
-            std::cout<<"This subject don't exist"<<std::endl;
-            return 0;
-        }
-        auto key = marks.end();
-        int iteration = key->first + 1;
-        placeToAdd+=iteration;
-        std::cout<<placeToAdd<<std::endl;
-        std::string iterationString = std::to_string(iteration);
-        const std::string gradeToAdd= iterationString + " " +grade + " " + weight + " " + "note";
-        text.insert(text.begin()+placeToAdd,gradeToAdd);
-        std::ofstream studentFileWrite(studentFilePath);
-        if(studentFileWrite.is_open()){
-            for(const std::string& line : text){
-                std::cout<<line<<std::endl;
-                studentFileWrite << line << std::endl;
-            }
-            studentFileWrite.close();
-        }
-        return 0;
-    }
     float avarageGrade(){
             float devider = 0;
             float GradesAddition =0;
-        for (const auto& element : marks) {
+        for (auto& element : marks) {
             Grade grade = element.second;
             GradesAddition+=grade.mark*grade.weight;
             devider +=grade.weight;
         }
-        float avarageValue = GradesAddition/devider;
-        return avarageValue;
+        return round(GradesAddition/devider*100)/100;
     }
 };

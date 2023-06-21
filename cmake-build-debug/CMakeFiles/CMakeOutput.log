@@ -26,9 +26,12 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 The CXX compiler identification is GNU, found in "C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1ga55p
+Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j20kpq
 
-Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/ninja/win/x64/ninja.exe cmTC_66530 && [1/2] Building C object CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d5803/fast && C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d5803.dir\build.make CMakeFiles/cmTC_d5803.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j20kpq'
+Building C object CMakeFiles/cmTC_d5803.dir/CMakeCCompilerABI.c.obj
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj -c C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c
 Using built-in specs.
 COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe
 Target: x86_64-w64-mingw32
@@ -36,8 +39,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66530.dir/'
- C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/jakup/Desktop/clion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_66530.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\cclpaN6s.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d5803.dir\'
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_d5803.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccFT7zxE.s
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -58,13 +61,17 @@ GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 23424b72d090e8b977a96775bde79257
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66530.dir/'
- as -v -o CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj C:\Users\jakup\AppData\Local\Temp\cclpaN6s.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d5803.dir\'
+ as -v -o CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj C:\Users\jakup\AppData\Local\Temp\ccFT7zxE.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_66530.exe
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_d5803.exe
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d5803.dir\link.txt --verbose=1
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d5803.dir/objects.a
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_d5803.dir/objects.a @CMakeFiles\cmTC_d5803.dir\objects1
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_d5803.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5803.exe -Wl,--out-implib,libcmTC_d5803.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -75,9 +82,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66530.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66530.'
- C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_66530.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_66530.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66530.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66530.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5803.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d5803.'
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_d5803.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_d5803.dir/objects.a --no-whole-archive --out-implib libcmTC_d5803.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5803.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d5803.'
+mingw32-make[1]: Leaving directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j20kpq'
 
 
 
@@ -98,9 +106,12 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1ga55p]
+  ignore line: [Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j20kpq]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/ninja/win/x64/ninja.exe cmTC_66530 && [1/2] Building C object CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d5803/fast && C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d5803.dir\build.make CMakeFiles/cmTC_d5803.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j20kpq']
+  ignore line: [Building C object CMakeFiles/cmTC_d5803.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj -c C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -108,8 +119,8 @@ Parsed C implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66530.dir/']
-  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/jakup/Desktop/clion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_66530.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\cclpaN6s.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d5803.dir\']
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_d5803.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccFT7zxE.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -130,8 +141,8 @@ Parsed C implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66530.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj C:\Users\jakup\AppData\Local\Temp\cclpaN6s.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d5803.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj C:\Users\jakup\AppData\Local\Temp\ccFT7zxE.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/]
@@ -141,8 +152,12 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_66530.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_d5803.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_d5803.exe]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d5803.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_d5803.dir/objects.a]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_d5803.dir/objects.a @CMakeFiles\cmTC_d5803.dir\objects1]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_d5803.dir/objects.a -Wl --no-whole-archive -o cmTC_d5803.exe -Wl --out-implib libcmTC_d5803.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -159,14 +174,14 @@ Parsed C implicit link information from above output:
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66530.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_66530.']
-  link line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_66530.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_66530.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5803.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d5803.']
+  link line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_d5803.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_d5803.dir/objects.a --no-whole-archive --out-implib libcmTC_d5803.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_66530.exe] ==> ignore
+    arg [cmTC_d5803.exe] ==> ignore
     arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -175,9 +190,254 @@ Parsed C implicit link information from above output:
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
-    arg [CMakeFiles/cmTC_66530.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_d5803.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_66530.dll.a] ==> ignore
+    arg [libcmTC_d5803.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-liconv] ==> lib [iconv]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+    arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  remove lib [gcc_eh]
+  remove lib [msvcrt]
+  collapse obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+  collapse obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+  collapse obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+  collapse obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  collapse library dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0]
+  collapse library dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc]
+  collapse library dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib]
+  collapse library dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+  implicit objs: [C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o;C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  implicit dirs: [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0;C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc;C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/jakup/Desktop/clion/bin/mingw/lib]
+  implicit fwks: []
+
+
+The system is: Windows - 10.0.19045 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/jakup/Desktop/clion/bin/mingw/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/jakup/Desktop/clion/bin/mingw/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v7b3nl
+
+Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4124c/fast && C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4124c.dir\build.make CMakeFiles/cmTC_4124c.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v7b3nl'
+Building C object CMakeFiles/cmTC_4124c.dir/CMakeCCompilerABI.c.obj
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj -c C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4124c.dir\'
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_4124c.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccXAkxwR.s
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring nonexistent directory "/win/include"
+ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring nonexistent directory "/mingw/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+End of search list.
+GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 23424b72d090e8b977a96775bde79257
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4124c.dir\'
+ as -v -o CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj C:\Users\jakup\AppData\Local\Temp\ccXAkxwR.s
+GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
+COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_4124c.exe
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4124c.dir\link.txt --verbose=1
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_4124c.dir/objects.a
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_4124c.dir/objects.a @CMakeFiles\cmTC_4124c.dir\objects1
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_4124c.dir/objects.a -Wl,--no-whole-archive -o cmTC_4124c.exe -Wl,--out-implib,libcmTC_4124c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (GCC) 
+COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4124c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4124c.'
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_4124c.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_4124c.dir/objects.a --no-whole-archive --out-implib libcmTC_4124c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4124c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4124c.'
+mingw32-make[1]: Leaving directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v7b3nl'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  end of search list found
+  collapse include dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/include]
+  collapse include dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;C:/Users/jakup/Desktop/clion/bin/mingw/include;C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;C:/Users/jakup/Desktop/clion/bin/mingw/x86_64-w64-mingw32/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v7b3nl]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4124c/fast && C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4124c.dir\build.make CMakeFiles/cmTC_4124c.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-v7b3nl']
+  ignore line: [Building C object CMakeFiles/cmTC_4124c.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj -c C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4124c.dir\']
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_4124c.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccXAkxwR.s]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/win/include"]
+  ignore line: [ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "C:/Users/jakup/Desktop/clion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring nonexistent directory "/mingw/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4124c.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj C:\Users\jakup\AppData\Local\Temp\ccXAkxwR.s]
+  ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
+  ignore line: [COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4124c.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_4124c.exe]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4124c.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_4124c.dir/objects.a]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_4124c.dir/objects.a @CMakeFiles\cmTC_4124c.dir\objects1]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe  -v -Wl --whole-archive CMakeFiles\cmTC_4124c.dir/objects.a -Wl --no-whole-archive -o cmTC_4124c.exe -Wl --out-implib libcmTC_4124c.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4124c.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4124c.']
+  link line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_4124c.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_4124c.dir/objects.a --no-whole-archive --out-implib libcmTC_4124c.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+    arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> search dynamic
+    arg [-o] ==> ignore
+    arg [cmTC_4124c.exe] ==> ignore
+    arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+    arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
+    arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
+    arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc]
+    arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
+    arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_4124c.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_4124c.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -225,9 +485,12 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3jdiat
+Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tqjok8
 
-Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/ninja/win/x64/ninja.exe cmTC_21959 && [1/2] Building CXX object CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4e7c7/fast && C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4e7c7.dir\build.make CMakeFiles/cmTC_4e7c7.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tqjok8'
+Building CXX object CMakeFiles/cmTC_4e7c7.dir/CMakeCXXCompilerABI.cpp.obj
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
 Using built-in specs.
 COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe
 Target: x86_64-w64-mingw32
@@ -235,8 +498,8 @@ Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21959.dir/'
- C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/jakup/Desktop/clion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_21959.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccWHEYva.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4e7c7.dir\'
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_4e7c7.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccWjXyIt.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -263,13 +526,17 @@ GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21959.dir/'
- as -v -o CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\jakup\AppData\Local\Temp\ccWHEYva.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4e7c7.dir\'
+ as -v -o CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\jakup\AppData\Local\Temp\ccWjXyIt.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
 COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_21959.exe
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_4e7c7.exe
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4e7c7.dir\link.txt --verbose=1
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_4e7c7.dir/objects.a
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_4e7c7.dir/objects.a @CMakeFiles\cmTC_4e7c7.dir\objects1
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe  -v -Wl,--whole-archive CMakeFiles\cmTC_4e7c7.dir/objects.a -Wl,--no-whole-archive -o cmTC_4e7c7.exe -Wl,--out-implib,libcmTC_4e7c7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe
 COLLECT_LTO_WRAPPER=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
@@ -280,9 +547,10 @@ Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
 COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/
 LIBRARY_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21959.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21959.'
- C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_21959.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_21959.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21959.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21959.'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e7c7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4e7c7.'
+ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_4e7c7.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_4e7c7.dir/objects.a --no-whole-archive --out-implib libcmTC_4e7c7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e7c7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4e7c7.'
+mingw32-make[1]: Leaving directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tqjok8'
 
 
 
@@ -309,9 +577,12 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3jdiat]
+  ignore line: [Change Dir: C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tqjok8]
   ignore line: []
-  ignore line: [Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/ninja/win/x64/ninja.exe cmTC_21959 && [1/2] Building CXX object CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_4e7c7/fast && C:/Users/jakup/Desktop/clion/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_4e7c7.dir\build.make CMakeFiles/cmTC_4e7c7.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/jakup/Documents/GitHub/SchoolDatabase/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tqjok8']
+  ignore line: [Building CXX object CMakeFiles/cmTC_4e7c7.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj -c C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe]
   ignore line: [Target: x86_64-w64-mingw32]
@@ -319,8 +590,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21959.dir/']
-  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:/Users/jakup/Desktop/clion/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_21959.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccWHEYva.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4e7c7.dir\']
+  ignore line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_4e7c7.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\jakup\AppData\Local\Temp\ccWjXyIt.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -347,8 +618,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21959.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\jakup\AppData\Local\Temp\ccWHEYva.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4e7c7.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\jakup\AppData\Local\Temp\ccWjXyIt.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
   ignore line: [COMPILER_PATH=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/]
@@ -358,8 +629,12 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_21959.exe]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_4e7c7.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_4e7c7.exe]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_4e7c7.dir\link.txt --verbose=1]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\cmTC_4e7c7.dir/objects.a]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\cmTC_4e7c7.dir/objects.a @CMakeFiles\cmTC_4e7c7.dir\objects1]
+  ignore line: [C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe  -v -Wl --whole-archive CMakeFiles\cmTC_4e7c7.dir/objects.a -Wl --no-whole-archive -o cmTC_4e7c7.exe -Wl --out-implib libcmTC_4e7c7.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
@@ -376,14 +651,14 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_21959.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_21959.']
-  link line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_21959.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_21959.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e7c7.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_4e7c7.']
+  link line: [ C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_4e7c7.exe C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_4e7c7.dir/objects.a --no-whole-archive --out-implib libcmTC_4e7c7.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
     arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe] ==> ignore
     arg [-m] ==> ignore
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> search dynamic
     arg [-o] ==> ignore
-    arg [cmTC_21959.exe] ==> ignore
+    arg [cmTC_4e7c7.exe] ==> ignore
     arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
     arg [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o] ==> obj [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o]
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0]
@@ -392,9 +667,11 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib]
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..] ==> dir [C:/Users/jakup/Desktop/clion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../..]
-    arg [CMakeFiles/cmTC_21959.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_4e7c7.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_21959.dll.a] ==> ignore
+    arg [libcmTC_4e7c7.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore

@@ -1,55 +1,9 @@
 #include "subjectStudent.cpp"
+#include "classYear.cpp"
 #include <filesystem>
+#include <bits/stdc++.h>
+#include <vector>
 namespace fs = std::filesystem;
-class classYear{
-public:
-    int _class;
-    std::string _mainTeacher;
-    std::string _profile;
-    classYear(int studentClassYear,std::string classProfile, std::string mainTeacher){
-        _class = studentClassYear;
-        _profile = classProfile;
-        _mainTeacher = mainTeacher;
-    }
-    virtual ~classYear(){};
-    virtual int printClass(){
-        return _class;
-    }
-    virtual void printMainTeacher(){
-        std::cerr<<"This student don't have main Teacher"<<std::endl;
-    }
-    void showMainPreorities(){
-        std::cout<<"Class "<<_class<<"mainTeacher "<<_mainTeacher<<std::endl;
-    }
-    void addClass(){
-        std::string pathToFolder = "C:/Users/jakup/Documents/GitHub/SchoolDatabase/Classes/"+_profile+"_"+std::to_string(_class);
-        if(!fs::exists(pathToFolder)){
-            if(fs::create_directory(pathToFolder))
-                std::cout << "Directory Created succesfuly"<<std::endl;
-            else
-                std::cout << "Can't create directory" << std::endl;
-            }   else{
-            std::cout << "This directory already exist" << std::endl;
-        }
-    }
-    void displayAllStudentsInClass
-    (){
-        std::string pathToFolder = "C:/Users/jakup/Documents/GitHub/SchoolDatabase/Classes/"+_profile+"_"+std::to_string(_class)+"/";
-        for(auto& student : fs::directory_iterator(pathToFolder)){
-            std::string studentName;
-            if(student.is_regular_file()){
-                studentName=student.path().filename().string();
-                int positionBegin = studentName.find("_");
-                std::string name = studentName.substr(0,positionBegin);
-                std::string surname = studentName.substr(positionBegin+1);
-                int positionEnd = surname.find(".");
-                surname = surname.substr(0,positionEnd);
-                std::cout<<"Name: "<<name<<" Surname: "<<surname<<std::endl;
-            }
-
-        }
-    }
-};
 
 class student : public classYear,public subjectStudent{
 public:
@@ -120,31 +74,60 @@ public:
     void bestSubjectDisplay(){
         std::cout<<_bestSubject<<std::endl;
     }
-    int averageYear(){
+    int avarageYearUpdate(){
         bool flag = false;
+        int trueAvarageGradeLine=0;
+        int iteration = 0;
         std::ifstream avarageGradeFile(_avarageYearGradePath);
         std::vector<std::string> allGrades;
         if(avarageGradeFile.is_open()){
             std::string line;
-            while (std::getline(avarageGradeFile, line)){
+            while (avarageGradeFile>>line){
                 allGrades.push_back(line);
-                if(line == _name + " " + _surname){
-                    //add data with avarage grade to txt file
-                }
-                else
+                if(line == _name + "_" + _surname){
+                    avarageGradeFile>>line;
+                    std::cout<<std::to_string(yearAvarageGrade())<<std::endl;
+                    if(std::stof(line) == yearAvarageGrade()){
+                        std::cout<<"Grade is up to data"<<std::endl;
+                        return 0;
+                    }else
+                        trueAvarageGradeLine = iteration +1;
+                }else
                     flag = true;
+                iteration++;
             }
             avarageGradeFile.close();
         }else{
-            std::cout<<"Can't open file"<<std::endl;
+            std::cout<<"File created"<<std::endl;
+            std::ofstream avarageGradeFileCreate(_avarageYearGradePath);
+            avarageGradeFileCreate<<_name<<"_"<<_surname<<std::endl;
+            avarageGradeFileCreate<<yearAvarageGrade()<<std::endl;
+            avarageGradeFileCreate.close();
             return 0;
         }
-        std::ofstream avarageGradeFileWrite(_avarageYearGradePath);
         if(flag == true){
-            //add function to pass avarage grade
+            std::ofstream avarageGradeFileWrite(_avarageYearGradePath,std::ios::app);
+            avarageGradeFileWrite <<_name<<"_"<<_surname<<std::endl;
+            avarageGradeFileWrite<<yearAvarageGrade()<<std::endl;
+            avarageGradeFileWrite.close();
+            std::cout<<"Data Added"<<std::endl;
         }
-
+        else{
+            std::ofstream avarageGradeFileWrite(_avarageYearGradePath);
+            for(int i=0;i<allGrades.size()+1;i++)
+            {
+                if(i == trueAvarageGradeLine){
+                    avarageGradeFileWrite << yearAvarageGrade()<<std::endl;
+                    continue;
+                }
+                avarageGradeFileWrite << allGrades.at(i)<<std::endl;
+            }
+            avarageGradeFileWrite.close();
+            std::cout<<"Data updated"<<std::endl;
+        }
+        return 0;
     }
+
     float avarageGrade(){
         float devider = 0;
         float GradesAddition =0;
@@ -155,6 +138,20 @@ public:
         }
         float avarageValue = GradesAddition/devider;
         return avarageValue;
+    }
+    float yearAvarageGrade(){
+        float avarageSubjectGrade=0;
+        readSubjectsName(_studentFilePath);
+        if(subjectName.size() == 0){
+            std::cout<<"This student don't attend to any subject"<<std::endl;
+            return 0;
+        }
+        for(int i =0;i<subjectName.size();i++){
+            insertingDateFromFileForOneSubject(subjectName.at(i),_studentFilePath);
+            avarageSubjectGrade+=avarageGrade();
+            clearMap();
+        }
+        return round(avarageSubjectGrade/subjectName.size()*100)/100;
     }
 private:
     std::string _bestSubject;

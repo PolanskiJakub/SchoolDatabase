@@ -1,0 +1,3 @@
+C:\Users\jakup\Desktop\clion\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\school.dir/objects.a
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\ar.exe qc CMakeFiles\school.dir/objects.a @CMakeFiles\school.dir\objects1
+C:\Users\jakup\Desktop\clion\bin\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\school.dir/objects.a -Wl,--no-whole-archive -o school.exe -Wl,--out-implib,libschool.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\school.dir\linkLibs.rsp
